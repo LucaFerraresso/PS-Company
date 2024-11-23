@@ -10,6 +10,14 @@ body.dark {
   @apply bg-darkBackground text-white;
 }
 
+body.retro {
+  @apply bg-retroBackground text-retroPrimary;
+}
+
+body.metro {
+  @apply bg-metroBackground text-metroPrimary;
+}
+
 html {
   transition: background-color 0.3s, color 0.3s;
 }
